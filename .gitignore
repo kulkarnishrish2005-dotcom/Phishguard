@@ -1,0 +1,85 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+.env.*.local
+.env.*
+!.env.example
+*.secret
+*.secrets
+secrets.*
+credentials.*
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Testing / Coverage
+.pytest_cache/
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+
+# mypy
+.mypy_cache/
+
+# ruff
+.ruff_cache/
+
+# Data (keep structure, ignore large files)
+data/raw/*.csv
+data/raw/*.json
+data/raw/*.txt
+data/cleaned/*.csv
+data/cleaned/*.json
+data/processed/*.csv
+data/processed/*.json
+data/processed/*.pkl
+!data/**/.gitkeep
+
+# ML artifacts
+ml/models/saved/
+*.pt
+*.pth
+*.onnx
+*.joblib
+*.pickle
+
+# Logs
+*.log
+logs/
+
+# Recovery artifacts
+app_broken.py
+app_damaged_backup.py
+
+# Local agent settings
+.claude/settings.local.json

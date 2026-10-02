@@ -1,0 +1,27 @@
+{
+  "positive_class": "phishing",
+  "negative_class": "benign",
+  "train_phishing_count": 150,
+  "train_benign_count": 450,
+  "train_ratio": "150:450",
+  "test_phishing_count": 50,
+  "test_benign_count": 150,
+  "test_ratio": "Natural: 25.0% phishing / 75.0% benign",
+  "metrics": {
+    "logistic_regression": {
+      "test_accuracy": 0.72,
+      "roc_auc": 0.7472,
+      "pr_auc": 0.603360788923427
+    },
+    "random_forest": {
+      "test_accuracy": 0.77,
+      "roc_auc": 0.7173333333333334,
+      "pr_auc": 0.48600226048869977
+    },
+    "xgboost": {
+      "test_accuracy": 0.765,
+      "roc_auc": 0.7155999999999999,
+      "pr_auc": 0.45711515434175337
+    }
+  }
+}

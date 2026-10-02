@@ -1,0 +1,42 @@
+[
+  {
+    "category": "Legitimate / Benign URLs",
+    "url": "https://www.google.com/search?q=machine+learning",
+    "description": "Standard search engine query with clean domain and standard parameters."
+  },
+  {
+    "category": "Legitimate / Benign URLs",
+    "url": "https://github.com/torvalds/linux/blob/master/README.md",
+    "description": "Legitimate open-source code repository with standard path navigation."
+  },
+  {
+    "category": "Legitimate / Benign URLs",
+    "url": "https://en.wikipedia.org/wiki/Computer_security",
+    "description": "Encyclopedic article URL with clean path."
+  },
+  {
+    "category": "Credential Harvesting / Brand Impersonation",
+    "url": "http://login.paypal.account-verification.secure-auth-gateway.com/signin?user=auth_token",
+    "description": "Deep subdomain nesting, multiple authentication keywords, look-alike domain."
+  },
+  {
+    "category": "Obfuscation / IP Hostname",
+    "url": "http://192.168.1.100:8080/secure/banking/update_password.php?token=xyz",
+    "description": "Raw IP address as host with non-standard port and sensitive action keywords."
+  },
+  {
+    "category": "Punycode IDN Homograph Attack",
+    "url": "http://www.xn--pple-43d.com/support/appleid/login",
+    "description": "Punycode domain imitating Apple using Cyrillic look-alike character."
+  },
+  {
+    "category": "Delimited '@' Sign Redirection",
+    "url": "https://accounts.google.com@evil-credential-harvester.ru/session/login.php",
+    "description": "Browser redirection trick using '@' symbol to send user to evil host."
+  },
+  {
+    "category": "URL Shortener / Payload concealment",
+    "url": "https://bit.ly/3xZy9Qw?redirect=account-suspended",
+    "description": "Shortened link hiding actual destination with urgent redirect parameter."
+  }
+]

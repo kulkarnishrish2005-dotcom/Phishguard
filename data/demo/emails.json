@@ -1,0 +1,22 @@
+[
+  {
+    "category": "High-Urgency Account Suspension Phishing",
+    "title": "Urgent: Your Microsoft 365 Account Will Be Disabled Within 24 Hours",
+    "text": "Subject: URGENT: Immediate Action Required - Microsoft 365 Security Alert\n\nDear User,\n\nWe detected unauthorized access to your Microsoft 365 workspace. Your account has been temporarily restricted due to suspicious activity. Failure to comply within 24 hours will result in permanent account termination.\n\nPlease verify your identity immediately by clicking below:\nhttp://login.microsoft365.verify-portal-security.com/auth/login\n\nIT Support Department\nSecurity & Compliance Team"
+  },
+  {
+    "category": "Banking / Financial Credential Theft",
+    "title": "Overdue Wire Transfer / Banking Security Notice",
+    "text": "Subject: Critical Notice: Confirm Your Banking Details for Pending Wire Transfer\n\nYour account has a pending wire transfer refund of $2,450.00. To release the funds, please confirm your identity, social security number, and PIN code immediately.\n\nClick here to update your billing details:\nhttp://192.168.1.50:8443/online-banking/confirm_details.php\n\nThank you,\nAccount Billing Department"
+  },
+  {
+    "category": "Lottery / Prize Social Engineering",
+    "title": "Congratulations! You have won an exclusive reward prize",
+    "text": "Subject: Exclusive Offer: You Have Won a $500 Gift Card!\n\nCongratulations! You have been selected as today's winner for our annual giveaway bonus. Claim your prize and gift card now before this deal expires.\n\nClick below to claim your reward:\nhttps://bit.ly/claim-prize-bonus-today"
+  },
+  {
+    "category": "Legitimate Business Communication",
+    "title": "Quarterly Engineering Team Sync Notes",
+    "text": "Subject: Engineering Team Sync - Q3 Retrospective\n\nHi team,\n\nThanks everyone for joining today's retrospective. The sprint notes and action items have been documented in the project wiki. Please review the updated milestones when you get a chance.\n\nLet me know if you have any questions before our Monday standup.\n\nBest regards,\nAlex"
+  }
+]
